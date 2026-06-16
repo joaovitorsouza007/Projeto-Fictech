@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Projeto_Fictech/estilos/contato.css">
     <title>Contato</title>
+    <link rel="stylesheet" href="estilos/geral.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" defer ></script>
+    <script src="../scripts/script.js" defer></script>
 </head>
 
 <body>
@@ -21,19 +25,19 @@
                         <p>Cadastre-se e faça parte de nossa equipe.</p>
                         <div class="container">
                             <label for="name">Nome:</label>
-                            <input type="text" name="name" id="name">
+                            <input type="text" name="name" id="name" required>
                         </div>
                         <div class="container">
                             <label for="phone">Telefone:</label>
-                            <input type="tel" name="phone" id="phone">
+                            <input type="tel" name="phone" id="phone" required>
                         </div>
                         <div class="container">
                             <label for="email">Email:</label>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" required>
                         </div>
                         <div class="container">
                             <label for="city">Cidade:</label>
-                            <input type="text" name="city" id="city">
+                            <input type="text" name="city" id="city" required>
                         </div>
                     </div>
 
@@ -48,7 +52,7 @@
                         </select>
                         <label for="escolaridade">Escolaridade</label>
                         <select name="" id="escolaridade">
-                            <option value="" disabled selected>Escolha aqui...</option>
+                            <option value="" disabled selected>Escolha aqui... </option>
                             <option value="ensino-medio-inc">Ensino médio Incompleto</option>
                             <option value="ensino-medio-completo">Ensino médio Completo</option>
                             <option value="superior-inc">Ensino Superior Incompleto</option>
