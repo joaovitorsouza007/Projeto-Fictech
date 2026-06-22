@@ -37,14 +37,14 @@ section {
 
 }
 
-h2{
+.titleh2{
     text-align: center;
     padding: 1.5rem;
     font-size: 32px;
     color: var(--primary-color);
 }
 
-p{
+.pDiv{
     text-align: center;
     padding: 1.5rem;
     font-size: 20px;
